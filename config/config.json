@@ -1,0 +1,26 @@
+{
+  "csv_file": "well.csv",
+  "osdu": {
+    "base_url": "",
+    "headers": {
+      "accept": "application/json",
+      "data-partition-id": "",
+      "Authorization": "Bearer <auth-token>",
+      "Content-Type": "application/json",
+      "Accept": "*/*"
+    }
+  },
+  "title": "Wellbore Schema",
+  "description": "Schema for wellbore data",
+  "created_by": "user@example.com",
+  "scope": "SHARED",
+  "status": "PUBLISHED",
+  "authority": "TEST21",
+  "source": "nsta",
+  "entityType": "master-data--Wellbore",
+  "schemaVersionMajor": 1,
+  "schemaVersionMinor": 0,
+  "schemaVersionPatch": 0
+}
+
+
