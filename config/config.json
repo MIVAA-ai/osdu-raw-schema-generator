@@ -1,5 +1,5 @@
 {
-  "csv_file": "well.csv",
+  "csv_file": "<file-path>",
   "osdu": {
     "base_url": "",
     "headers": {
