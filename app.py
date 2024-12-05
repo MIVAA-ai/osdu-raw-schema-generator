@@ -102,6 +102,6 @@ def generate_osdu_schema(config_file,properties_file):
 config_file = "config\config.json"  # Path to your configuration file
 properties_file = "config\properties.json" # Path to your properties file
 schema = generate_osdu_schema(config_file,properties_file)
-save_schema_to_file(schema, "output\wellbore_schema.json")
+save_schema_to_file(schema, "wellbore_schema.json")
 
 
