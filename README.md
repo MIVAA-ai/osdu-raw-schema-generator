@@ -38,3 +38,15 @@ The project is highly configurable through the `config` directory. Key configura
 - **Versioning**:
   - `schemaVersionMajor`, `schemaVersionMinor`, `schemaVersionPatch`.
 
+### Workflow
+- Input Data Preparation:
+	- The input CSV file (well.csv) contains structured data required for schema generation.
+	- You can customize this file to fit your specific data format.
+- Configuration Setup:
+	- Update config.json to define schema metadata such as title, description, entity type, and versioning details.
+	- Adjust properties.json to specify schema attributes like ID patterns, legal tags, ACLs, etc.
+- Execution:
+  	- Run the main script (app.py) to process the input data, apply configurations, and generate the required schema.
+	- The application interacts with OSDU APIs if configured, or it can run independently in a local environment.
+- Output:
+	- The output schemas and related artifacts are saved in the output directory for further use or validation.
