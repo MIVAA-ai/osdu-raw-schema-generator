@@ -11,16 +11,25 @@ This project is designed to assist in creating and managing OSDU schemas, provid
 - **Output Management**: Generated schemas and outputs are stored in the `output` directory.
 - **Modular Utilities**: Reusable utilities available in the `utils` directory.
 
-## Requirements
+## Requirements and Getting Started
 
 Ensure you have Python 3.x installed. Install the necessary dependencies by running:
 
+Clone the repository:
+```bash
+	git clone https://github.com/MIVAA-ai/osdu-raw-schema-generator
+```
+Set up your Python environment by installing the dependencies:
 ```bash
 	pip install -r requirements.txt
 ```
+Edit config.json and properties.json to match your use case.
+
+Run the main script:
 ```bash
 	python app.py
 ```
+Check the output directory for the generated schema files.
 
 
 ## Configuration
@@ -38,7 +47,7 @@ The project is highly configurable through the `config` directory. Key configura
 - **Versioning**:
   - `schemaVersionMajor`, `schemaVersionMinor`, `schemaVersionPatch`.
 
-### Workflow
+## Workflow
 - Input Data Preparation:
 	- The input CSV file (well.csv) contains structured data required for schema generation.
 	- You can customize this file to fit your specific data format.
